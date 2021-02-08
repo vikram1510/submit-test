@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const Wrapper = styled.div<{ labelFontSize: string, isHidden: boolean }>`
   display: flex;
   width: 100%;
-  /* background-color: yellow; */
   
   .label-wrapper {
     display: flex;
@@ -16,7 +15,6 @@ const Wrapper = styled.div<{ labelFontSize: string, isHidden: boolean }>`
   }
   .cover-wrapper {
     margin: 24px;
-    /* max-height: 200px; */
     .header-wrapper {
       cursor: pointer;
       font-size: 36px;

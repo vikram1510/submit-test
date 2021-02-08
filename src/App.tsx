@@ -76,6 +76,7 @@ function App() {
                 src='https://media-exp1.licdn.com/dms/image/C5603AQFnU7K87icrpQ/profile-displayphoto-shrink_800_800/0/1575476511190?e=1618444800&v=beta&t=nzIBGEcFBa64CVQxXSh8kauT7neuy6buHZHobyfNvYI' 
                 height='100%'
                 width='auto'
+                alt='My profile'
               />
           </MeWrapper>
         </Reveal>
