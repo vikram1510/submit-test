@@ -4,7 +4,9 @@
   "proxy": "http://localhost:4000",
   "private": true,
   "workspaces": {
-    "packages" : ["api"]
+    "packages": [
+      "api"
+    ]
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,15 +16,17 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "axios": "^0.21.1",
     "concurrently": "^5.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "styled-components": "^5.2.1",
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start" : "concurrently \"react-scripts start\" \"yarn start:api\"",
-    "start:api" : "yarn --cwd api start:dev",
+    "start": "concurrently \"react-scripts start\" \"yarn start:api\"",
+    "start:api": "yarn --cwd api start:dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7"
   }
 }
